@@ -1,0 +1,14 @@
+package com.hexaware.employeemanagementsystem.service;
+
+import java.util.List;
+
+
+
+import com.hexaware.employeemanagementsystem.entity.Employee;
+
+public interface IEmployeeService {
+
+	public List<Employee> getAllEmployees();
+	public Employee saveEmployee(Employee employee);
+	public Employee updateEmployee(Long empId);
+}

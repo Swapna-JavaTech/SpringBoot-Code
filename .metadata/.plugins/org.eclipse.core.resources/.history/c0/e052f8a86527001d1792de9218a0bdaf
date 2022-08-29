@@ -1,0 +1,5 @@
+package com.hexaware.employeemanagementsystem.repository;
+
+public interface EmployeeRepository {
+
+}

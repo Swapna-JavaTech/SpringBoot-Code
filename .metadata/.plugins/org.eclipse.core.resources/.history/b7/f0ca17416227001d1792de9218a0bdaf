@@ -1,0 +1,5 @@
+package com.hexaware.employeemanagementsystem.entity;
+
+public class Employee {
+
+}

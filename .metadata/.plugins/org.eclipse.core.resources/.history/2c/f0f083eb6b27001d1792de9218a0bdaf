@@ -1,0 +1,23 @@
+package com.hexaware.employeemanagementsystem.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.hexaware.employeemanagementsystem.entity.Employee;
+import com.hexaware.employeemanagementsystem.service.IEmployeeService;
+
+@RestController
+public class EmployeeController {
+	
+	@Autowired
+	private IEmployeeService empService;
+	
+	@GetMapping
+	public List<Employee> getAllEmployees(){
+		return empService.getAllEmployees();
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.hexaware.employeemanagementsystem.exception;
+
+public class ResourceNotFoundException extends Exception {
+
+}
